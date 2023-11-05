@@ -23,6 +23,7 @@ function App() {
 // Template URL to insert variables
   let api = `https://rickandmortyapi.com/api/character/?page=${pageNum}&name=${search}`;
   
+  // When page is "request" this func runs and gets the data
   useEffect(() => {
     (async function () {
       let data = await fetch(api).then((res) => res.json());
@@ -30,20 +31,15 @@ function App() {
     })();
   }, [api]);
 
-  console.log(results);
   return (
     <div className="App">
-      
       <h1 className="text-center tahoma my-2"> Ricky & Morty</h1>
       <p className="text-center tahoma"> by <span className="text-primary">Lua Trevín</span></p>
       <h1 className="text-center mb-3">Characters</h1>
       <Search setSearch={setSearch} updatePageNum={updatePageNum} />
       <div className="container">
         <div className="row">
-          <div className="col-3">
-            <Filters/>
-          </div>
-          <div className="col-8">
+          <div className="col-12">
             <div className="row">
               <Cards results={results}/>
             </div>

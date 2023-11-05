@@ -7,7 +7,7 @@ const Cards = ({results}) => {
         display = results.map(i=>{
             let {id, name, image, location, gender, species, origin, status} = i
             return(
-                <div key={id} className="col-4 mb-4 position-relative">
+                <div key={id} className="col-3 mb-4 position-relative">
                     <div className={styles.cards}>
                         <img src={image} alt="" className={`${styles.img} img-fluid`}/>
                         <div className={styles.content}>

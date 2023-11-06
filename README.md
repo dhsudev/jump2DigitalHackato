@@ -53,11 +53,15 @@ He afegit dos botons al peu de la pàgina per veure més personatges
 
 ## Tecnologies utilitzades
 **React -** Biblioteca de JavaScript. La seva metodologia se centra en la creació de components reutilitzables que gestionen el seu contingut i estat. En aquest projecte comptem amb el buscador, les targetes de personatges i els botons de paginació.
+
 **Bootstrap -** Framework que facilita el disseny d'UI. 
 (No he acabat d'implementar-ho correctament per a que la pàgina sigui responsiva del tot.)
 **Sass *(Syntactically Awesome Stylesheets)* -** Preprocessador de CSS que facilita el manteniment de fulles d'estil, ja que introdueix característiques adicionals com per exemple les variables.
+
 **React-paginate -** La idea inicial era utilitzar aquesta biblioteca per fer una paginació més professional, però per falta de temps no he pogut implementar-la.
+
 **React-scripts -** Conjunt de scripts que eviten haver de  configurar manualment tota l'estructura del projecte.
+
 ## Conclusions
 Degut a motius personals no he tingut temps a implementar funcionalitats com la **càrrega infinita i filtre d'etiquetes** tot i que sí que havia fet recerca de com fer-ho. 
 Aquest ha sigut el meu primer projecte amb React i soc conscient que hi ha moltíssimes coses a millorar.

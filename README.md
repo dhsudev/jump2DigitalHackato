@@ -1,6 +1,6 @@
 
 # Hackató Jump2Digital
-by Lua Trevín
+by Lua
 
 ## Dependències
 Al ser una aplicació de React necessitareu **node.js** per executar-la. Podeu descarregar-lo a la [pàgina oficial](https://nodejs.org/en).

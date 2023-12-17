@@ -62,14 +62,6 @@ He afegit dos botons al peu de la pàgina per veure més personatges
 
 **React-scripts -** Conjunt de scripts que eviten haver de  configurar manualment tota l'estructura del projecte.
 
-## Conclusions
-Degut a motius personals no he tingut temps a implementar funcionalitats com la **càrrega infinita i filtre d'etiquetes** tot i que sí que havia fet recerca de com fer-ho. 
-Aquest ha sigut el meu primer projecte amb React i soc conscient que hi ha moltíssimes coses a millorar.
-Aquesta primera fase de la hackató m'ha servit com a motivació per començar amb React  (cosa que portava posposant temps) i seguir aprenent i millorant!
-
-Aquest mateix projecte de forma personal l'arreglaré amb temps i el millora-re :)
-
-Gràcies per llegir espero que t'hagi agradat!
 
 
 
